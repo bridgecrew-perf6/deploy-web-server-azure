@@ -30,3 +30,23 @@ Based on these, this project will use a Packer template and a Terraform template
 #### Apply the policy afterwards
 ``az policy assignment create --policy tagging-policy --name tagging-policy
 ``
+
+#### Set up environment variables
+In your terminal, export these environment variables:
+
+``export ARM_CLIENT_ID=my_client_id``
+
+``export ARM_CLIENT_SECRET=my_secret``
+
+``export ARM_SUBSCRIPTION_ID=my_subscription_id``
+
+#### Deploy packer image
+In your terminal, create a build from packer json file
+``packer build server.json``
+
+#### Use terraform to provision build
+In your terminal, run these following commands 
+
+``terraform init``
+
+``terraform destroy``
