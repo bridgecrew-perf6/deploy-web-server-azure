@@ -23,7 +23,7 @@ variable "password"{
 
 variable "server_names"{
   type = list
-  default = ["uat","int"]
+  default = ["my_server","my_other_server"]
 }
 
 variable "packerImageId"{
