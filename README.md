@@ -49,6 +49,25 @@ In your terminal, run these following commands
 
 ``terraform init``
 
+To customize your deployment, you can edit these following fields in vars.tf file:
+
+prefix - The prefix used for all resources
+
+environment - The environment used for all resources
+
+location - The Azure Region in which all resources
+
+username - The admin username
+
+password - The admin password 
+
+server_names - Names of servers
+
+packerImageId - Pointer to packer image
+
+vm_count - Total number of virtual machines
+
+
 Provision with terraform
 ``terraform apply``
 
