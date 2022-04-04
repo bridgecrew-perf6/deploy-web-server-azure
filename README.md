@@ -49,6 +49,7 @@ In your terminal, run these following commands
 
 ``terraform init``
 
+<br>
 To customize your deployment, you can edit these following fields in vars.tf file:
 
 prefix - The prefix used for all resources
@@ -67,6 +68,7 @@ packerImageId - Pointer to packer image
 
 vm_count - Total number of virtual machines
 
+<br>
 
 Provision with terraform
 ``terraform apply``
