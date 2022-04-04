@@ -49,4 +49,9 @@ In your terminal, run these following commands
 
 ``terraform init``
 
+Provision with terraform
+``terraform apply``
+
+Once you are finished, destroy the resource
 ``terraform destroy``
+
